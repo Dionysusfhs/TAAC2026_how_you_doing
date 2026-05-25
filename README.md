@@ -216,7 +216,7 @@ $EVAL_RESULT_PATH/predictions.json
 ```bibtex
 @misc{densegroup-maxauc-sota,
   title  = {DenseGroup MaxAUC SOTA for pCVR Prediction},
-  author = {Zikang Chen, Siqi Wu},
+  author = {Zikang Chen @ Tsinghua, Siqi Wu @ UESTC},
   year   = {2026},
   note   = {Tencent Ads Algorithm Competition, rank 53/1875, eval AUC 0.832181}
 }
