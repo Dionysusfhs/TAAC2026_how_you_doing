@@ -12,7 +12,7 @@
 DenseGroup MaxAUC SOTA 是腾讯广告算法大赛 pCVR 预估任务的最终提交方案。模型以 HyFormer 多行为序列建模为主干，融合用户/商品离散特征、dense 数值特征、四路行为序列与样本时间特征，并通过四条 zero-init residual 分支补强 AUC。
 
 - 比赛链接：[Tencent Ads Algorithm Leaderboard](https://algo.qq.com/leaderboard)
-- 最终排名：53 / 1875，Top 2.83%
+- 最终排名：59 / 1876，Top 3.14%
 - Eval AUC：0.832181
 - 最终配置：四条 MaxAUC residual 分支全开，`emb_skip_threshold=1100000`，`ema_decay=0.9995`
 
@@ -218,7 +218,7 @@ $EVAL_RESULT_PATH/predictions.json
   title  = {DenseGroup MaxAUC SOTA for pCVR Prediction},
   author = {Zikang Chen @ Tsinghua, Siqi Wu @ UESTC},
   year   = {2026},
-  note   = {Tencent Ads Algorithm Competition, rank 53/1875, eval AUC 0.832181}
+  note   = {Tencent Ads Algorithm Competition, rank 59/1876, eval AUC 0.832181}
 }
 ```
 

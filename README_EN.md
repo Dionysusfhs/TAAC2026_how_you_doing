@@ -12,7 +12,7 @@
 DenseGroup MaxAUC SOTA is the final solution for the Tencent Ads Algorithm Competition pCVR prediction task. The model uses a HyFormer backbone for multi-domain behavior sequences, fuses user/item categorical features, dense numerical features, four behavior sequences, and sample-time features, and improves AUC through four zero-initialized residual branches.
 
 - Competition: [Tencent Ads Algorithm Leaderboard](https://algo.qq.com/leaderboard)
-- Final rank: 53 / 1875, Top 2.83%
+- Final rank: 59 / 1876, Top 3.14%
 - Eval AUC: 0.832181
 - Final configuration: all four MaxAUC residual branches enabled, `emb_skip_threshold=1100000`, `ema_decay=0.9995`
 
@@ -216,7 +216,7 @@ $EVAL_RESULT_PATH/predictions.json
   title  = {DenseGroup MaxAUC SOTA for pCVR Prediction},
   author = {Zikang Chen @ Tsinghua, Siqi Wu @ UESTC},
   year   = {2026},
-  note   = {Tencent Ads Algorithm Competition, rank 53/1875, eval AUC 0.832181}
+  note   = {Tencent Ads Algorithm Competition, rank 59/1876, eval AUC 0.832181}
 }
 ```
 
